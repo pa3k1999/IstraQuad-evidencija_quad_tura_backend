@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "evidencija-tura",
+  "private_key_id": "a77ede9d500e942ef0f82f97e7cec2923a71de11",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDGliy6nWpRTuwO\nyL9nRg9lPiI5reNMFJm1U5qCyy0ewMWv7Bvgg5kuPwslL4/vORk7Es5+P0gjWEWn\nXK3puy6qbnIKiZaLhLMGmJbsMLWFHzvd28RNJFnuLmgtZd0b5F4A/4vxnuxG1gsS\nAsOAw+409fvgvo0hQKOednNv4mWgiQ2ctzeKXPYJurg3fKucttW7283sxnJ+u8St\nbqfHOyKDHY8gtATkQYph6q1EzZt+bk+3hu3DwTKDaJmtcQ+9biNudae99frJaHY2\nF8p15S7oHM16MHnXudqGqSVT4a3TUT+EDZdBA36dDRVYSoKNwGLuZniTIDAqjq4b\n4fmrilO/AgMBAAECggEAVEm8bW7QB/fIENRbDTH66d1v+Gxaa9nYjdKQ48/p9EId\nBjjgcjBZDXx7tgpUfNSO5XhrhcFFVJ8sXUdkl663tWYQaHGSoOAvfm64rEJWYUzr\nA5U6YgW6V/KBjDdOnH6W+bR9iQ4LulsyMrBSm65NxlPb1z35t/HwIJulDomY2gRh\nUlxM43zcbSzzE4Tp2Jp0u9fPeItdX85VLbXk0G0Cq1jSEMSdQkgKG8/oxsLElq62\n0Zq0UO3X5QVyTHxKeSvTEKEVPFdZx9rhW3IuHB4HIjFBN4kVxQ1rK4eVu8H8b/vu\nHhBBMAFZSVbL7IyyXxcFC9/h62X5TS5VgpGryRtcTQKBgQD8Syc1XkXCO4wHCl8U\nftAi7QM4n9XTtPbpYVX1w0hxvOflZ7ObLoA3MWSdX13T+6AGhJ0snDp0k3xW5wgY\nUwQz5UZHM6Wku3Ocxfo8iPzxqkydTmNL77442EJv55Uge+WrWW076K9DMpJh9Hrf\ncPvhGouXSJa+8HYCpZflW15XHQKBgQDJgQk1FN5lhnMNCbhkurKJUT2hkdh3oIlv\nvnauuhlJqcpSlhLsw5uY+oKWSw2UCu1XjrgYTXcGSNmZNQ3n9GdGF5WZFKaF0Sww\n0H/6KUKjwOipBRXnkdbrBsItNCmKnO7Y5oPQwuRoAhdxLwZyhrTQgaX5EKGq9P48\ni91SfLtziwKBgAjglBaapJW7BqhQwxuzgptX/58EcL+sRGvd0up83pWx8e7ugTFa\np4RJpqKq8mA9IFpaXDVvodbsQZnFM1G3yhQRYzGqLY/oUJ8ZkD6FC3FtbpiyY2gO\nnYDeiyfo3CRyd5hZ4zASdehFZUUxFwm5rgMzrem60iMRzvU04m1dk6o5AoGBAK0y\n30Ij9ODZBs0fHMJgAxOqo8nbfW+dqmRFFugqh4/chE4mNpARtg1wzYv3aO1l0wme\nX7hr5TGeroJUquZEGfySSwCwUk3VNCGlJUtV6bStHI4jE+feYBfV0FNgcZB2QYpn\n4McwrXiEy7d6jxUjmglaVtnVJNC4EkrigVLkaY7vAoGABxTjfmtZmb7mUL6wngOE\ne9fka+SgEk0HnbIc6yCdY5coYAH5LBMFbU2N0YDHusBO75/ebFXMLNhzTceEmqYY\nwz+5lpBiLDnRj/n8XJPwjcOmYmaLhlhkiOtkajj6u7UgMQrUSF1Y5nNpH3lUSqdM\nyeN8+9Qc9FpQsFsgLKLa3gw=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-5xra1@evidencija-tura.iam.gserviceaccount.com",
+  "client_id": "115672778940234770478",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-5xra1%40evidencija-tura.iam.gserviceaccount.com"
+}
