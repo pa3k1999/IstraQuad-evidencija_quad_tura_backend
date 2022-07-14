@@ -1,18 +1,5 @@
 const express = require("express");
 const app = express();
-const cors = require('cors');
-
-const wList = ['https://evidencija-tura.web.app/'];
-
-var corsOptions = {
-  origin: function (origin, callback) {
-    if(wList.indexOf(origin) !== -1) {
-      callback(null, true);
-    } else{
-      callback(new Error("Not allowed by CROS!!!"));
-    }
-  }
-}
 
 var admin = require("firebase-admin");
 var serviceAccount = require("./firebaseKey.json");
@@ -21,7 +8,9 @@ admin.initializeApp({
   databaseURL: "https://evidencija-tura-default-rtdb.europe-west1.firebasedatabase.app"
 });
 
-app.use(cors(corsOptions));
+app.get('/', (req, res) => {
+  res.send("Istra Quad API!");
+})
 
 app.get('/novi-user', (req, res) => {
   const email = req.headers['email'];
