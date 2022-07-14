@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const cors = require('cors');
 
-const wList = ['http://localhost:3000'];
+const wList = ['https://evidencija-tura.web.app/'];
 
 var corsOptions = {
   origin: function (origin, callback) {
@@ -48,7 +48,6 @@ app.get('/novi-user', (req, res) => {
       admin.auth().setCustomUserClaims(userCredential.uid, {premiumAccount: true})
     })
   }
-  
 })
 
 app.get('/novi-user-convert', (req, res) => {
