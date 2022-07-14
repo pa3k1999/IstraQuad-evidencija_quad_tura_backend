@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+const cors = require('cors');
 
 var admin = require("firebase-admin");
 var serviceAccount = require("./firebaseKey.json");
@@ -8,9 +9,7 @@ admin.initializeApp({
   databaseURL: "https://evidencija-tura-default-rtdb.europe-west1.firebasedatabase.app"
 });
 
-app.get('/', (req, res) => {
-  res.send("Istra Quad API!");
-})
+app.use(cors());
 
 app.get('/novi-user', (req, res) => {
   const email = req.headers['email'];
