@@ -20,8 +20,11 @@ app.use(cors({
     }
     return callback(null, true);
   }
-
 }));
+
+app.get('/', function (req, res) {
+  res.send('hello world')
+})
 
 app.get('/novi-user', (req, res) => {
   const email = req.headers['email'];
@@ -86,4 +89,4 @@ app.delete('/obrisi-vodica', (req, res) => {
   
 // })
 
-app.listen(4000);
+app.listen(3000);
