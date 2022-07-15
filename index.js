@@ -89,4 +89,4 @@ app.delete('/obrisi-vodica', (req, res) => {
   
 // })
 
-app.listen(4000);
+app.listen(process.env.PORT || 3000);
