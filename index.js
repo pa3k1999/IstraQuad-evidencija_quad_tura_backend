@@ -9,11 +9,19 @@ admin.initializeApp({
   databaseURL: "https://evidencija-tura-default-rtdb.europe-west1.firebasedatabase.app"
 });
 
-app.use(function(req, res, next) {
-  res.header("Access-Control-Allow-Origin", "https://evidencija-tura.web.app");
-  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-  next();
-});
+const allowedOrigins = ['*'];
+
+app.use(cors({
+  origin: function(origin, callback){
+    if(!origin) return callback(null, true);
+    if(allowedOrigins.indexOf(origin) === -1){
+      const msg = 'The CORS policy for this site does not allow access from the specified Origin.';
+      return callback(new Error(msg), false);
+    }
+    return callback(null, true);
+  }
+
+}));
 
 app.get('/novi-user', (req, res) => {
   const email = req.headers['email'];
